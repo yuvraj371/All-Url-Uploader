@@ -42,9 +42,9 @@ if not os.path.isdir(Config.DOWNLOAD_LOCATION):
 
 bot = Client(
     'All-Url-Uploader',
-    api_id=Config.API_ID,
-    api_hash=Config.API_HASH,
-    bot_token=Config.BOT_TOKEN,
+    api_id="11479687",
+    api_hash="424be8d526b7df9d2614e2bafff47c81",
+    bot_token="6425501411:AAG91blUoAZ1isYdpzFcScmgSz0tR4VrmUw",
     workers=50,
     plugins=dict(root="Uploader")
 )
