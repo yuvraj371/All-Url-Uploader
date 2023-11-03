@@ -35,7 +35,7 @@ logging.basicConfig(
 class Config(object):
     WEBHOOK = os.environ.get("BOT_TOKEN", False)
     # Get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6425501411:AAG91blUoAZ1isYdpzFcScmgSz0tR4VrmUw")
     # The Telegram API things
     API_ID = int(os.environ.get("API_ID", 11479687))
     API_HASH = os.environ.get("API_HASH", "424be8d526b7df9d2614e2bafff47c81")
